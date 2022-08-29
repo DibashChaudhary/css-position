@@ -1,0 +1,65 @@
+
+body{
+    font: 2rem;
+    padding: 1rem;
+}
+
+.parent{
+    background: bisque;
+    padding: 1rem;
+
+    /* position: absolute; */
+    position: relative;
+
+}
+
+.parent > div {
+    height: 100px;
+
+}
+
+.child1{
+    background: rgb(109, 26, 50);
+}
+
+.child2{
+    background: rgb(219, 204, 186);
+
+    /* using Absolute */
+    /* position: absolute;  */
+    /* right: 5px; */
+    /* left: 5px; */
+    /* bottom: 20px; */
+    /* top: 5px;  */
+
+    /* using relative */
+    /* position: relative;
+    right: 20px;
+    left: 20px;
+    bottom: 20px;
+    top: 20px; */
+
+    /* using fixed */
+    /* position: fixed; */
+    /* right: 20px; */
+    /* left: 20px; */
+    /* bottom: 20px; */
+    /* top: 20px; */ 
+
+
+}
+
+.child3{
+    background: rgb(143, 79, 207);
+}
+
+.child4{
+    background: rgb(101, 191, 76);
+}
+
+/* using Sticky position */
+.sticky-nav{
+    background: rgb(139, 87, 87);
+    position: sticky;
+    top: 10px;
+}
